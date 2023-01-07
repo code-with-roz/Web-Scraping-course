@@ -7,3 +7,5 @@
 //span[@class="title"]/text()
 
 //span[@class="title"]/@id
+
+scrapy runspider chat_content_py.py -0 blogs.csv -t csv -s CLOSESPIDER_PAGECOUNT=3

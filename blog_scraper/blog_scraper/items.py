@@ -8,9 +8,9 @@ import scrapy
 
 class BlogScraperItem(scrapy.Item):
     # define the fields for your item here like:
-    title = scrapy.Field()
-    date = scrapy.Field()
-    user = scrapy.Field()
+    # title = scrapy.Field()
+    # date = scrapy.Field()
+    # user = scrapy.Field()
     content = scrapy.Field()
     
 
